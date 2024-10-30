@@ -1,0 +1,87 @@
+body{
+    background-image: url(/lightning-dark-sky-clouds-storm.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+/* form{
+    padding-bottom: 100px;
+} */
+
+.ob-havo{
+    text-align: center;
+}
+
+input{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.city-text{
+    font-size: 50px;
+    color: white;
+    
+}
+
+.h3-text{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.img-ob-havo{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+}
+
+.photo-ob-havo{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 50%;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.city-name{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+    z-index: 1;
+}
+
+.search{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+.temp{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    z-index: 1;
+    font-size: 70px;
+
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+}
